@@ -1,7 +1,7 @@
 
-const ErrorHandler =require('../utils/errorhandler');
+const ErrorHandler =require('../utils/errorhandler.js');
 const User=require('../Modal/userModal');
-const sendToken = require('../utils/jwttoken');
+const sendToken = require('../utils/jwttoken.js');
 //const { options } = require('../routes/productRoute');
 const cloudinary=require("cloudinary");
 const crypto=require('crypto');
